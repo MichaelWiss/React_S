@@ -1,4 +1,5 @@
 var path = requre('path');
+var HtmlWebpackPlugin = require('html-wabpack-plugin');
 
 module.exports = {
 	entry: './app/index.js',
