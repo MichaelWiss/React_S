@@ -6,6 +6,9 @@
   "scripts": {
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
+  "babel": {
+    "presets": ["env", "react"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MichaelWiss/React_S.git"
