@@ -1,10 +1,9 @@
 var React = require('react');
 var ReactDOM = ('react-dom');
-
 require('./index.css');
 
 
-class App extends React.component {
+class App extends React.Component {
 	render () {
 		return (
 			<div>
@@ -16,5 +15,5 @@ class App extends React.component {
 
 ReactDOM.render(
   <App />,
-  document.getElementBYID('app')
+  document.getElementById('app')
 );
